@@ -1,0 +1,113 @@
+
+#medicineButton, #playButton, #feedButton, #sleepButton {
+    -fx-font-size: 18px;
+    -fx-font-weight: normal;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    /*-fx-background-color: #92F5EE;*/
+    -fx-background-color: #F9D0D3;
+    -fx-border-width: 2px;
+    -fx-border-color: transparent;
+    /*-fx-padding: 10px;*/
+    -fx-border-radius: 0;
+
+}
+
+#medicineButton:pressed, #playButton:pressed, #feedButton:pressed, #sleepButton:pressed {
+    /*-fx-background-color: #B0FAF5;*/
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: #FFE9E7;
+    -fx-border-width: 2px;
+    -fx-border-color: #672100;
+    -fx-background-insets: 0;
+}
+
+
+#petTalk{
+    -fx-font-size: 40px;
+    -fx-text-fill: black;
+    -fx-font-style: italic;
+}
+#myStatus{
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#myHealth{
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#myFood{
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#myFun{
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#myEnergy{
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#myPoints{
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+}
+
+#myLabel1{
+    -fx-font-size: 28px;
+
+}
+
+#myLabel2{
+    -fx-font-size: 25px;
+}
+#continueBtn{
+    -fx-font-size: 20px;
+    -fx-font-weight: normal;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: #F9D0D3;
+    -fx-background-radius:0;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-color: transparent;
+}
+#continueBtn:pressed{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: #FFE9E7;
+    -fx-background-radius:0;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-color: #672100;
+    -fx-background-insets: 0;
+
+}
+#petNameLabel{
+    -fx-font-size: 18px;
+    -fx-font-family: "Comic Sans MS",cursive;
+}
+#roomLabel{
+    -fx-font-size: 18px;
+    -fx-font-family: "Comic Sans MS",cursive;
+}
+#homeButton{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: #F9D0D3;
+    /*-fx-background-radius:0;*/
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: transparent;
+}
+
+#homeButton:pressed{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: #FFE9E7;
+    /*-fx-background-radius:0;*/
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: #672100;
+    -fx-background-insets: 0;
+}
